@@ -11,10 +11,10 @@
 }
 
 body {
-    background: url('/dist/img/solar.jpg') no-repeat;
-    font-family: 'Catamaran', sans-serif;
+    background: url('../img/solar1.jpg') no-repeat;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #ecb10d;
     font-size: 1.1rem;
 }
 
@@ -79,8 +79,10 @@ span {
 }
 
 .navbar .nav a:hover {
-    color: #0c0c0c;
-    transition: 1.4s;
+    color: #ecb10d;
+    background-color: #241e1e;
+    border-radius: 8px;
+    transition: 1.7s;
 }
 
 .section-a{
@@ -104,7 +106,7 @@ span {
 
 .section-a h1 {
     font-size: 4rem;
-    color: var(--primary-color);
+    color: #0c0c0c;
 }
 
 .section-a h3 {
@@ -134,12 +136,13 @@ span {
 }
 
 .reports {
+    color: #0c0c0c;
     text-align: center;
     margin-bottom: 1rem;
 }
 
 .energy p {
-    color: var(--primary-color);
+    color: #ecb10d;
     font-weight: bold;
 }
 .energy ul {
@@ -152,7 +155,7 @@ span {
 }
 
 .ecology p {
-    color: var(--primary-color);
+    color: #ecb10d;
     font-weight: bold;
 }
 
