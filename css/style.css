@@ -50,7 +50,7 @@ img {
 }
 span {
     font-weight: 800;
-    color: aliceblue;
+    color: #f8ae06;
 }
 
 .navbar{
@@ -124,7 +124,7 @@ span {
 
 .section-a p {
     margin: 1rem 0;
-    color: #0675d7;
+    color: #f0f0f0;
 }
 
 .section-a .solar {
