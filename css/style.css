@@ -50,6 +50,7 @@ img {
 }
 span {
     font-weight: 800;
+    color: aliceblue;
 }
 
 .navbar{
@@ -112,7 +113,7 @@ span {
 .section-a h3 {
     text-align: center;
     margin-top: 3rem;
-    color: #333;
+    color: #0c0c0c;
 }
 
 .section-a h4 {
@@ -123,6 +124,15 @@ span {
 
 .section-a p {
     margin: 1rem 0;
+    color: #0675d7;
+}
+
+.section-a .solar {
+    margin-bottom: 32px;
+    color: #000000;
+    margin-top: -3px;
+    margin-left: 15px;
+    font-size: 23px;
 }
 
 /* Reports */
@@ -150,7 +160,8 @@ span {
 }
 
 .energy a:hover {
-    color: #241e1e;
+    font-size: 10px;
+    color: #ecb10d;
     transition: 1s;
 }
 
@@ -163,7 +174,7 @@ span {
     text-align: center;
 }
 .audit a:hover {
-    color: #241e1e;
+    color: #ecb10d;
     transition: 1s;
 }
 
