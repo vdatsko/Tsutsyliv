@@ -11,8 +11,13 @@
 }
 
 body {
+<<<<<<< HEAD
     background: url('../img/solar1.jpg') no-repeat;
     font-family: 'Roboto', sans-serif;
+=======
+    background: url('../img/solar.jpg') no-repeat;
+    font-family: 'Catamaran', sans-serif;
+>>>>>>> fd66164f317277033fdd40e942ccc6909d9de220
     line-height: 1.6;
     color: #ecb10d;
     font-size: 1.1rem;
