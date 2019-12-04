@@ -11,7 +11,7 @@
 }
 
 body {
-    background: url('../img/solar1.jpg') no-repeat;
+    background: url('../img/solar4.jpg') no-repeat;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #ecb10d;
@@ -25,10 +25,27 @@ h1, h2, h3, h4 {
 a {
     color: #fff2f2;
     text-decoration: none;
+    font-weight: bold;
 }
 
 ul {
     list-style: none;
+}
+
+.report {
+    margin: 1rem 0;
+    color: #ffffff;
+    background-color: #4d4848a1;
+    padding: 12px;
+    border-radius: 14px;
+}
+
+.contact {
+    margin: 1rem 0;
+    color: #ffffff;
+    background-color: #4d4848a1;
+    padding: 20px;
+    border-radius: 14px;
 }
 
 img {
@@ -46,7 +63,10 @@ img {
 }
 
 .section-a .top {
-    color: #fff2f2;
+    color: #ffffff;
+    background-color: #4d4848a1;
+    padding: 20px;
+    border-radius: 14px;
 }
 span {
     font-weight: 800;
@@ -107,13 +127,13 @@ span {
 
 .section-a h1 {
     font-size: 4rem;
-    color: #0c0c0c;
+    color: #ffffff;
 }
 
 .section-a h3 {
     text-align: center;
     margin-top: 3rem;
-    color: #0c0c0c;
+    color: #ffffff;
 }
 
 .section-a h4 {
@@ -124,15 +144,18 @@ span {
 
 .section-a p {
     margin: 1rem 0;
-    color: #f0f0f0;
+    color: #ffffff;
+    background-color: #4d4848a1;
+    padding: 20px;
+    border-radius: 14px;
 }
 
-.section-a .solar {
-    margin-bottom: 32px;
-    color: #000000;
-    margin-top: -3px;
-    margin-left: 15px;
-    font-size: 23px;
+.section-a h2 {
+    color: #fffffffc;
+    font-weight: bold;
+    background-color: #0000007d;
+    padding: 7px;
+    border-radius: 14px;
 }
 
 /* Reports */
@@ -142,21 +165,38 @@ span {
     grid-gap: 3rem;
     /* align-items: center; */
     /* justify-content: center; */
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
 }
 
 .reports {
     color: #0c0c0c;
+    font-size: 50px;
     text-align: center;
     margin-bottom: 1rem;
 }
 
-.energy p {
-    color: #ecb10d;
+.reporting {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 1rem;
     font-weight: bold;
 }
+
+.energy p {
+    color: #ecb10d;
+    margin: 1rem 0;
+    background-color: #4d4848a1;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 14px;
+}
 .energy ul {
-    margin-top: 4rem;
+    margin-top: 2rem;
+    color: #ffffff;
+    background-color: #4d4848a1;
+    padding: 15px;
+    border-radius: 14px;
 }
 
 .energy a:hover {
@@ -168,10 +208,16 @@ span {
 .ecology p {
     color: #ecb10d;
     font-weight: bold;
+    margin: 1rem 0;
+    background-color: #4d4848a1;
+    padding: 20px;
+    border-radius: 14px;
 }
 
 .audit p {
     text-align: center;
+    color: white;
+    font-weight: bold;
 }
 .audit a:hover {
     color: #ecb10d;
@@ -180,6 +226,8 @@ span {
 
 .anual p {
     text-align: center;
+    color: white;
+    font-weight: bold;
 }
 
 /* Section-d */
@@ -189,7 +237,7 @@ span {
     grid-gap: 3rem;
     /* align-items: center; */
     /* justify-content: center; */
-    margin-bottom: 4rem;
+    
     
 }
 .section-d .container h1 {
@@ -197,7 +245,7 @@ span {
 }
 
 .map {
-    margin-top: 5rem;
+    margin-top: -1rem;
     margin-right: 10rem;
 }
 
@@ -207,8 +255,9 @@ span {
 }
 
 .map p {
+    color: #fff;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 30px;
     text-align: center;
 }
 
