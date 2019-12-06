@@ -11,7 +11,7 @@
 }
 
 body {
-    background: url('../img/solar4.jpg') no-repeat;
+    background: url('../img/solar.jpg') no-repeat;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #ecb10d;
@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
 }
 
 a {
-    color: #fff2f2;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -33,6 +33,7 @@ ul {
 }
 
 .report {
+    font-size: 15px;
     margin: 1rem 0;
     color: #ffffff;
     background-color: #4d4848a1;
@@ -100,8 +101,8 @@ span {
 }
 
 .navbar .nav a:hover {
-    color: #ecb10d;
-    background-color: #241e1e;
+    color: #ffffff;
+    background-color: #4d4848a1;
     border-radius: 8px;
     transition: 1.7s;
 }
@@ -192,6 +193,7 @@ span {
     border-radius: 14px;
 }
 .energy ul {
+    font-size: 15px;
     margin-top: 2rem;
     color: #ffffff;
     background-color: #4d4848a1;
@@ -200,8 +202,8 @@ span {
 }
 
 .energy a:hover {
-    font-size: 10px;
-    color: #ecb10d;
+    font-size: 14px;
+    color: #2b2a29;
     transition: 1s;
 }
 
@@ -220,7 +222,8 @@ span {
     font-weight: bold;
 }
 .audit a:hover {
-    color: #ecb10d;
+    font-size: 14px;
+    color: #2b2a29;
     transition: 1s;
 }
 
